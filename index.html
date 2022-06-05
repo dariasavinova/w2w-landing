@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>W2W</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="common__wrapper">
+			<div class="header">
+				<div class="container">
+					<div class="header__wrapper">
+						<img class="header__logo" src="img/logo.svg" alt="logo">
+						<button class="header__menu"><img src="img/menu.svg" alt=""></button>
+					</div>
+					<div class="header__img"><img src="img/img.png" alt=""></div>
+				</div>
+			</div>
+			<div class="main">
+				<div class="container">
+					<div class="main__leaf lang" key="leaf">листайте</div>
+					<h1 class="main__title lang" key="title">Поздравляем с&nbsp;Новым годом!</h1>
+					<p class="main__info lang" key="p1">От лица Way2Win желаем здоровья, ярких впечатлений, масштабных проектов и
+						новых
+						свершений.
+					</p>
+					<p class="main__info2 lang" key="p2">А теперь наконец можно говорить <span class="main__info-color">«Коллеги,
+							давайте уже
+							после праздников»</span>, закупать продукты на&nbsp;новогодний стол и получать сюрпризы&nbsp;от близких,
+						друзей и
+						партнёров, например, от нас!</p>
+					<p class="main__info3 lang" key="p3"></p>
+					<h2 class="main__paragraph">Сделайте фото с дополненной реальностью</h2>
+					<p class="main__info3">Если ещё не успели сделать фото с&nbsp;настоящим снеговиком, <span
+							class="main__info-color">попробуйте с&nbsp;виртуальным!</span> А ещё можно сфотографироваться <span
+							class="main__info-color">с Дедом Морозом или около новогодней ёлки.</span></p>
+					<h2 class="main__paragraph">Выберите одного из героев для фото</h2>
+					<div class="main__photo">
+						<img class="main__photo-svg" src="img/camera.svg" alt="photo">
+						<div class="main__photo-info">Откроется камера телефона. <br> Далее следуйте подсказкам.</div>
+					</div>
+
+					<div class="slider">
+						<div class="slider__item">
+							<img class="slider__item-img" src="img/firstCard.png" alt="Father Frost">
+							<h3 class="slider__item-title">Дед Мороз</h3>
+							<div class="slider__item-info">Добрый волшебник, который приносит подарки и укрывает деревья снегом</div>
+							<button class="slider__item-btn">Выбрать</button>
+						</div>
+
+						<div class="slider__item">
+							<img class="slider__item-img2" src="img/secondCard.png" alt="Snowman">
+							<h3 class="slider__item-title">Снеговик</h3>
+							<div class="slider__item-info">Можете разместить его хоть в комнате: для этого не нужно ни грамма снега
+							</div>
+							<button class="slider__item-btn">Выбрать</button>
+						</div>
+
+						<div class="slider__item">
+							<img class="slider__item-img3" src="img/thirdCard.png" alt="Santa Claus">
+							<h3 class="slider__item-title">Санта Клаус</h3>
+							<div class="slider__item-info">Хо-хо-хо. Он уже запрягает сани, но&nbsp;ещё успеет с вами
+								сфотографироваться</div>
+							<button class="slider__item-btn">Выбрать</button>
+						</div>
+
+						<div class="slider__item">
+							<img class="slider__item-img4" src="img/fourthCard.png" alt="Christmas tree">
+							<h3 class="slider__item-title">Ёлочка</h3>
+							<div class="slider__item-info">Не нужно ждать волшебной ночи: под&nbsp;нашей ёлкой уже лежат подарки!
+							</div>
+							<button class="slider__item-btn">Выбрать</button>
+						</div>
+
+					</div>
+
+					<p class="main__info4">Фотографией можно поделиться <br> или скинуть этот сайт друзьям:<br><span
+							class="main__info-color">пусть они тоже попробуют!</span></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="common__wrapper2">
+			<div class="space">
+				<div class="main__flex-btn"><button class="main__btn">поделиться</button>
+				</div>
+				<div class="footer">
+					<div class="container">
+						<img class="footer__logo" src="img/footerLogo.svg" alt="logo">
+						<div class="footer__info">Счастливого и&nbsp;успешного Нового года!</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="popup">
+			<div class="container">
+				<div class="popup__header">
+					<img class="popup__logo" src="img/logo.svg" alt="logo">
+					<button class="popup__close"><img src="img/popupClose.svg" alt=""></button>
+				</div>
+				<div class="popup__items">
+					<div class="popup__item">Сделать фото в AR</div>
+					<div class="popup__item">На сайт W2W</div>
+
+					<div class="popup__btns">
+						<button class="popup__btn" id="ru">ru</button>
+						<button class="popup__btn" id="en">en</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup2__photo">
+		<div class="container">
+			<div class="popup2__wrapper">
+				<img class="popup2__img" src="img/popupCamera.svg" alt="camera">
+				<h2 class="popup2__title">Как сделать фото</h2>
+				<div class="popup2__items">
+					<div class="popup2__num">1</div>
+					<div class="popup2__item">Наведите камеру на плоский объект, например, пол</div>
+				</div>
+
+				<div class="popup2__items">
+					<div class="popup2__num">2</div>
+					<div class="popup2__item">Плавно подвигайте камеру вправо-влево, чтобы установить героя</div>
+				</div>
+
+				<div class="popup2__items">
+					<div class="popup2__num">3</div>
+					<div class="popup2__item">Вы можете подвинуть героя: перетащите одним пальцем   или измените размер двумя</div>
+				</div>
+
+				<div class="popup2__items">
+					<div class="popup2__num">4</div>
+					<div class="popup2__item">Встаньте в кадр рядом с героем или сфотографируйте с ним своих коллег и друзей!</div>
+				</div>
+
+				<button class="popup2__btn">Время волшебства</button>
+			</div>
+		</div>
+		<button class="popup2__close"><img src="img/popupClose.svg" alt="close"></button>
+	</div>
+
+
+	<div class="wrapper2">
+		<div class="common__wrapper">
+			<div class="header">
+				<div class="container">
+					<div class="header__wrapper">
+						<img class="header__logo" src="img/logo.svg" alt="logo">
+						<button class="header__menu" id="header__menu2"><img src="img/menu.svg" alt=""></button>
+					</div>
+					<div class="header__img"><img src="img/img.png" alt=""></div>
+				</div>
+			</div>
+			<div class="main">
+				<div class="container">
+					<div class="main__leaf lang" key="leaf">leaf through</div>
+					<h1 class="main__title lang" key="title">Happy New Year!</h1>
+					<p class="main__info lang" key="p1">During this holiday season, let's all slow a little and enjoy simple yet
+						pleasant things.
+					</p>
+					<p class="main__info2 lang" key="p2">All of us in Way2Win wish you a Merry Christmas and may the New Year
+						begin
+						on&nbsp;a prosperous note! <br> <br>
+						<span class="main__info-color">Happy holidays!</span>
+					</p>
+					<p class="main__info3 lang" key="p3"></p>
+					<h2 class="main__paragraph">Take a picture in AR photo zone</h2>
+					<p class="main__info3">Our team has prepared a gift for you —
+						AR photo zone. <br> <br> Take a Christmas photo with decorated Christmas tree or Santa. You can choose
+						a&nbsp;character below. Then follow the instructions.</p>
+					<h2 class="main__paragraph">Choose a character</h2>
+					<div class="main__photo">
+						<img class="main__photo-svg" src="img/camera.svg" alt="photo">
+						<div class="main__photo-info">Follow the prompts when camera will appear. </div>
+					</div>
+
+					<div class="slider">
+						<div class="slider__item">
+							<img class="slider__item-img5" src="img/firstCard2.png" alt="Gingerbread man">
+							<h3 class="slider__item-title">Gingerbread man</h3>
+							<div class="slider__item-info">Hang it on a Christmas tree, put on the table or make it your bro and take
+								a picture together</div>
+							<button class="slider__item-btn" id="slider__item-btn">Choose</button>
+						</div>
+
+						<div class="slider__item">
+							<img class="slider__item-img2" src="img/secondCard.png" alt="Snowman">
+							<h3 class="slider__item-title">Snowman</h3>
+							<div class="slider__item-info2">Put him on a sofa next to you. No wet spots, no snow needed
+							</div>
+							<button class="slider__item-btn" id="slider__item-btn">Choose</button>
+						</div>
+
+						<div class="slider__item">
+							<img class="slider__item-img3" src="img/thirdCard.png" alt="Santa Claus">
+							<h3 class="slider__item-title">Santa Claus</h3>
+							<div class="slider__item-info">He is about to deliver presents but still has time to take a picture with you Ho ho ho</div>
+							<button class="slider__item-btn" id="slider__item-btn">Choose</button>
+						</div>
+
+						<div class="slider__item">
+							<img class="slider__item-img4" src="img/fourthCard.png" alt="Christmas tree">
+							<h3 class="slider__item-title">Christmas tree</h3>
+							<div class="slider__item-info2">Christmas gifts are under the tree. Miracles do happen now!
+							</div>
+							<button class="slider__item-btn" id="slider__item-btn">Choose</button>
+						</div>
+					</div>
+
+					<p class="main__info4">You can share your picture or our website with friends. <span class="main__info-color">Let them try!</span></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="common__wrapper2">
+			<div class="space">
+				<div class="main__flex-btn"><button class="main__btn">share</button>
+				</div>
+				<div class="footer">
+					<div class="container">
+						<img class="footer__logo" src="img/footerLogo.svg" alt="logo">
+						<div class="footer__info">Have a merry and&nbsp;successful year</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="popup" id="popup-en">
+			<div class="container">
+				<div class="popup__header">
+					<img class="popup__logo" src="img/logo.svg" alt="logo">
+					<button class="popup__close" id="popup__close"><img src="img/popupClose.svg" alt=""></button>
+				</div>
+				<div class="popup__items">
+					<div class="popup__item">Take an AR-picture</div>
+					<div class="popup__item">W2W website</div>
+
+					<div class="popup__btns">
+						<button class="popup__btn" id="ru2">ru</button>
+						<button class="popup__btn" id="en2">en</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="popup2__photo" id="popup2__photo">
+			<div class="container">
+				<div class="popup2__wrapper">
+					<img class="popup2__img" src="img/popupCamera.svg" alt="camera">
+					<h2 class="popup2__title">How to take a picture</h2>
+					<div class="popup2__items">
+						<div class="popup2__num">1</div>
+						<div class="popup2__item">Point the camera on any flat surface, floor for instance</div>
+					</div>
+	
+					<div class="popup2__items">
+						<div class="popup2__num">2</div>
+						<div class="popup2__item">To place the character smothly move the camera left-right</div>
+					</div>
+	
+					<div class="popup2__items">
+						<div class="popup2__num">3</div>
+						<div class="popup2__item">You can control it with your fingers (move and zoom in or out)</div>
+					</div>
+	
+					<div class="popup2__items">
+						<div class="popup2__num">4</div>
+						<div class="popup2__item">Get into the shot or take a picture of your friends and colleagues!</div>
+					</div>
+	
+					<button class="popup2__btn">Do some magic</button>
+				</div>
+			</div>
+			<button class="popup2__close" id="popup2__close"><img src="img/popupClose.svg" alt="close"></button>
+		</div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
